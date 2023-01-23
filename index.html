@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube ClOne</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/085384e239.js" crossorigin="anonymous"></script>
+</head>
+<body id="">
+    <div id="bodyelement">
+    <div class="side-menu" id="side-menu">
+        <div class="logopart">
+            <span><i class="fa-solid fa-bars" id="bars" onclick="closeSideMenu()"></i></span>
+            <img src="YouTube-Logo.png">
+        </div>
+        <div class="sidebar-part1">
+            <i class=" fa-sharp fa-solid fa-house"></i>Home
+            
+        </div>
+        <div class="sidebar-part2">
+            <img src="shorts4.png"> Shorts
+        
+        </div>
+        <div class="sidebar-part3">
+            <img src="subscription.png"> Subscriptions
+        
+        </div>
+        <hr>
+        <div class="sidebar-part4">
+            <img src="library.png"> Library
+        </div>
+        <div class="sidebar-part4">
+            <img src="history.png"> History
+        </div>
+        <div class="sidebar-part4">
+        <img src="your videos.png"> Your Videos
+        </div>
+        <div class="sidebar-part4">
+            <img src="watch later.png"> Watch Later
+        </div>
+        <div class="sidebar-part4">
+            <img src="liked videos.png"> Liked Videos
+        </div>
+        <div class="sidebar-part4">
+            <img src="show more.png"> Show More
+        </div>
+        <hr>
+        <!-------subscription part------------->
+        <h4>Subscriptions</h4>
+        <div class="sidebar-part4">
+           
+            <img src="denlion tv.png"> DenLion TV
+        </div>
+        <div class="sidebar-part4">
+        
+            <img src="get movies.png"> Get Movies
+       
+        </div>
+        <div class="sidebar-part4">
+        
+            <img src="maya and mary.png"> Maya and Mary
+        
+        </div>
+        <div class="sidebar-part4">
+        
+            <img src="kids tv.png"> Kids Entertaiment
+        
+        </div>
+        <div class="sidebar-part4">
+        
+            <img src="show more.png"> Show 233 More
+        
+        </div>
+        <hr>
+        
+    </div>
+    <div id="navbar">
+        
+        <i class="fa-solid fa-bars" id="solid-bar" onclick="displaySideBar()"></i>
+        <img  class="logo" src="youtubelogo2.png"> <b class="logo">YouTube</b>
+        <div id="search"> <i class="fa-solid fa-magnifying-glass"></i><input type="text"  name="search" placeholder=" Search"></div>
+        <span class="micro"><i class="fa-solid fa-microphone"></i></span>
+        <div class="icons">
+            <img src="vidupload.png">
+            <i class="fa-regular fa-bell"></i>
+            <img  class="user" src="user.JPG">
+            
+        </div>
+            
+          
+       
+    </div>
+    <div id="main1">
+        <div id="main">
+            <iframe  id="player" width="560" height="315" src="https://www.youtube.com/embed/HkWxvB1RJq0" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div id="likesdislikes">
+                <h4>Javascript Higher order functions || BY Akshay Saini </h4>
+                <div class="discription">
+                    <div class="subscriptions">
+                        <img class="user" src="user.JPG">
+                          <div class="sub1">
+                            <h4>codeWithHyder</h4>
+                            <p>Subscribers 20k</p>
+                          </div>
+                        
+                    </div>
+                    <div class="font-icons">
+                        <span class="subs">Subscribe</span>
+                        <i class="fa-solid fa-thumbs-up"> 500</i>
+                        <i class="fa-solid fa-thumbs-down"> 2</i> 
+                        <i class="fa-solid fa-share"> Share</i>
+                        <i class="fa-solid fa-circle-ellipsis">...</i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="comments">
+                <h4>20 Comments</h4>
+                <img src="menubar.png">
+                <b>Sort by</b>
+            </div>
+            <div class="add-comments">
+                <img src="aboutme.png">
+                <input type="text" placeholder="Add a comment">
+            </div>
+            <div class="old-comments">
+                <img src="background.png">
+                <P>Akshay saini the best tutor of javascript beginner and advace level,that makes one's concepts very clear</P>
+                
+                
+            </div>
+            <div class="likedislike">
+                <i class="fa-solid fa-thumbs-up"> 2</i>
+                <i class="fa-solid fa-thumbs-down"></i>
+                <span>Reply</span>
+            </div>
+        </div>
+        <div id="sidebar">
+            <div class="side-img">
+               <a href="#" ><iframe onclick="openInPlayer()" id="frm1" class="link"  src="https://www.youtube.com/embed/zdp0zrpKzIE" title="YouTube video player"
+                frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></a>
+            
+                <div class="side-bar-dis">
+                    <h4>Javascript map() filter() reduce() functions</h4>
+                    <p>By Akshay saini </p>
+                     <p>200k views &bull; 2days ago</p>
+                </div>
+            </div>
+            <div class="side-img">
+            <a href="#"><iframe onclick="openInPlayer()" id="frm2" class="link" src="https://www.youtube.com/embed/pcbswa-11AI" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></a>
+                <div class="side-bar-dis">
+                <h4>Undisputed , the story on a serial killer </h4>
+                <p>By John Kelin </p>
+                <p>230k views &bull; 10days ago</p>
+                </div>
+            </div>
+            <div class="side-img">
+            <a href="#"><iframe onclick="openInPlayer()" id="frm3" class="link" src="https://www.youtube.com/embed/f9ip1iSAptQ" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></a>
+                <div class="side-bar-dis">
+                    <h4>Microverse,The online school for web Development , zero upfront cost till you land a job</h4>
+                    <p>By Microverse Team </p>
+                     <p>190k views &bull; 15days ago</p>
+                </div>
+            </div>
+            <div class="side-img">
+                <a href="#"><iframe onclick="openInPlayer()" id="frm3" class="link" src="https://www.youtube.com/embed/f9ip1iSAptQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></a>
+                <div class="side-bar-dis">
+                    <h4>Javascript map() filter() reduce() functions</h4>
+                    <p>By Akshay saini </p>
+                    <p>200k views &bull; 2days ago</p>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+    </div>
+    <script>
+        let imgSource=document.getElementById("frm1").src.value;
+        function openInPlayer(){
+            document.getElementById("player").src=imgSource;
+        }
+    </script>
+    <script>
+        let sidemenu=document.getElementById("side-menu");
+        
+        function displaySideBar() {
+            sidemenu.style.display='block';
+           
+        }
+        let bars=document.getElementById("side-menu");
+        function closeSideMenu(){
+            bars.style.display='none';
+            bodyele.style.backgroundColor = '#fff';
+        }
+    </script>
+    
+</body>
+</html>
